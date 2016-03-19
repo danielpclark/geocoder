@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 group :development, :test do
+  #gem 'activerecord', '3.2.22.2'
   gem 'rake'
   gem 'mongoid', '2.6.0'
   gem 'bson_ext', platforms: :ruby
